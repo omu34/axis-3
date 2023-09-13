@@ -1,0 +1,36 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    @font-face {
+        font-family: 'avenir-next-lt-pro-regular';
+        font-weight: Medium;
+        font-style:normal;
+        src: url("fonts/Avenir-NextLTPro-Regular.woff") format('woff');
+    }
+    
+    @font-face {
+      font-family: 'avenir-next-lt-pro-bold';
+      font-weight: bold;
+      font-style:normal;
+      src: url("fonts/AvenirNextLTPro-Bold.woff") format('woff');
+    }
+    
+    @font-face {
+        font-family: 'unbounded-medium';
+        font-weight: medium;
+        src: url("fonts/Unbounded-Medium.woff") format('woff');
+    }
+    @font-face {
+      font-family: 'unbounded-bold';
+      font-weight: bold;
+      font-style:normal;
+      src: url("fonts/Unbounded-Bold.woff") format('woff');
+    }
+}
+
+
+
